@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Gerald's Ponderings</title>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Gerald's Ponderings</h1>
+    </div>
+    <div id="content">
+      <% for(var i = 0; i < posts.length; i++) { %>
+      <div class="post">
+        <div class="post-title">
+          <%= posts[i].title %>
+        </div>
+        <div class="post-time">
+          <%= posts[i].created %>
+        </div>
+        <div class="post-content">
+          <%= posts[i].content %>
+        </div>
+      </div>
+      <% } %>
+    </div>
+  </body>
+</html>
