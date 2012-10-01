@@ -84,7 +84,7 @@ h1 {
 	color: #666;
 }
 
-a {
+a:link {
   text-decoration: none;
 }
 
@@ -92,7 +92,6 @@ h2 {
   font:  1.5em 'Gruppo', sans-serif;
   margin-top: 25px;
   margin-bottom: 0px;
-  
 }
 
 h3 {
@@ -148,6 +147,3 @@ a.nav_ele:hover {
  opacity: 1;
 }
 
-#linkedInButton {
-	text-align: center;
-}
